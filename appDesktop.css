@@ -1,0 +1,26 @@
+@media(min-width:1440px) {
+    .main-container {
+        display: flex;
+        width: 650px;
+    }
+
+    .result-container {
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .result-container p {
+        padding: 0 1.5rem;
+
+    }
+
+    .score-container {
+        width: 150px;
+        height: 150px;
+    }
+
+    .summary-container {
+        width: 50%;
+        padding: 2rem;
+    }
+}

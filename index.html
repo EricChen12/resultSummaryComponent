@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="appDesktop.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+
+<body>
+  <main class="main-container">
+    <div class="result-container">
+      <h2 id="result">Your Result</h2>
+      <div class="score-container">
+        <span id="current-score">76</span>
+        <span id="score-100">of 100</span>
+      </div>
+      <h1>Great</h1>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="summary-container">
+      <h2 id="summary">Summary</h2>
+      <div class="summary-grid">
+        <div class="reaction summary-content">
+          <div class="reaction-left summary-left">
+            <img src="assets/images/icon-reaction.svg" alt="light icon for reaction">
+            <p>Reaction</p>
+          </div>
+          <div class="reaction-right summary-right">
+            <p><span>80</span> / 100</p>
+          </div>
+        </div>
+        <div class="memory summary-content">
+          <div class="memory-left summary-left">
+            <img src="assets/images/icon-memory.svg" alt="brain icon for memory">
+            <p>Memory</p>
+          </div>
+          <div class="memory-right summary-right">
+            <p><span>92</span> / 100</p>
+          </div>
+        </div>
+        <div class="verbal summary-content">
+          <div class="verbal-left summary-left">
+            <img src="assets/images/icon-verbal.svg" alt="message box icon for verbal">
+            <p>Verbal</p>
+          </div>
+          <div class="verbal-right summary-right">
+            <p><span>61</span> / 100</p>
+          </div>
+        </div>
+        <div class="visual summary-content">
+          <div class="visual-left summary-left">
+            <img src="assets/images/icon-visual.svg" alt="eye icon for visual">
+            <p>Visual</p>
+          </div>
+          <div class="visual-right summary-right">
+            <p><span>72</span> / 100</p>
+          </div>
+        </div>
+      </div>
+      <button>Continue</button>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Guo Chen</a>.
+    </div>
+  </footer>
+</body>
+
+</html>
